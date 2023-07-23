@@ -36,6 +36,6 @@ int print_binary(va_list args, char *buffer, unsigned int buf_i);
 char *init_bin(char *bin, long int arg, int is_neg, int size);
 int print_unsigned_int(va_list args, char *buffer, unsigned int buf_i);
 int print_octal(va_list args, char *buffer, unsigned int buf_i);
-int *init_oct(char *octal, char *binary);
+char *init_oct(char *octal, char *binary);
 
 #endif
