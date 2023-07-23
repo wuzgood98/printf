@@ -45,5 +45,6 @@ int print_address(va_list args, char *buffer, unsigned int buf_i);
 int print_hash_oct(va_list args, char *buffer, unsigned int buf_i);
 int print_hash_hexL(va_list args, char *buffer, unsigned int buf_i);
 int print_hash_hexU(va_list args, char *buffer, unsigned int buf_i);
+int print_plus_int(va_list args, char *buffer, unsigned int buf_i);
 
 #endif
