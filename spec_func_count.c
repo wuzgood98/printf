@@ -14,6 +14,7 @@ int spec_func_count(const char *str, int idx)
 		{"%", print_pctg}, {"l", print_pctg},
 		{"h", print_pctg}, {" %", print_pctg},
 		{"d", print_int}, {"i", print_int},
+		{"b", print_binary},
 	};
 	int index = 0, temp_idx, count = 0;
 
