@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_hash_hexL - prints the number starting with zero 
+ * print_hash_hexL - prints the number starting with zero
  * in lowercase.
  * @args: list of arguments
  * @buffer: pointer to the buffer
