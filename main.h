@@ -37,5 +37,8 @@ char *init_bin(char *bin, long int arg, int is_neg, int size);
 int print_unsigned_int(va_list args, char *buffer, unsigned int buf_i);
 int print_octal(va_list args, char *buffer, unsigned int buf_i);
 char *init_oct(char *octal, char *binary);
+int print_lower_hex(va_list args, char *buffer, unsigned int buf_i);
+char *init_hex(char *hex, char *bin, int size, int uppercase);
+int print_upper_hex(va_list args, char *buffer, unsigned int buf_i);
 
 #endif
