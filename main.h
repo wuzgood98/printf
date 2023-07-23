@@ -42,5 +42,8 @@ char *init_hex(char *hex, char *bin, int size, int uppercase);
 int print_upper_hex(va_list args, char *buffer, unsigned int buf_i);
 int print_S(va_list args, char *buffer, unsigned int buf_i);
 int print_address(va_list args, char *buffer, unsigned int buf_i);
+int print_hash_oct(va_list args, char *buffer, unsigned int buf_i);
+int print_hash_hexL(va_list args, char *buffer, unsigned int buf_i);
+int print_hash_hexU(va_list args, char *buffer, unsigned int buf_i);
 
 #endif

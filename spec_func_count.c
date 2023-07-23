@@ -17,7 +17,13 @@ int spec_func_count(const char *str, int idx)
 		{"b", print_binary}, {"u", print_unsigned_int},
 		{"o", print_octal}, {"x", print_lower_hex},
 		{"X", print_upper_hex}, {"S", print_S},
-		{"p", print_address},
+		{"p", print_address}, {" u", print_unsigned_int},
+		{" o", print_octal}, {" x", print_lower_hex},
+		{" X", print_upper_hex}, {"+X", print_upper_hex},
+		{"+x", print_lower_hex}, {"+o", print_octal},
+		{"#u", print_unsigned_int}, {"#i", print_int},
+		{"#d", print_int}, {"#o", print_hash_oct},
+		{"#x", print_hash_hexL}, {"#X", print_hash_hexU},
 	};
 	int index = 0, temp_idx, count = 0;
 
