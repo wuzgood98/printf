@@ -25,7 +25,8 @@ int (*spec_func(const char *str, int idx))(va_list, char *, unsigned int)
 		{"#d", print_int}, {"#o", print_hash_oct},
 		{"#x", print_hash_hexL}, {"#X", print_hash_hexU},
 		{"+d", print_plus_int}, {"+i", print_plus_int},
-		{"+u", print_unsigned_int},
+		{"+u", print_unsigned_int}, {" i", print_space_int},
+		{" d", print_space_int},
 	};
 	int index = 0, temp_idx, j = 0;
 
