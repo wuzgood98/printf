@@ -28,7 +28,8 @@ int (*spec_func(const char *str, int idx))(va_list, char *, unsigned int)
 		{"+u", print_unsigned_int}, {" i", print_space_int},
 		{" d", print_space_int}, {" +i", print_plus_int},
 		{" +d", print_plus_int}, {"+ i", print_plus_int},
-		{"+ d", print_plus_int}, {NULL, NULL},
+		{"+ d", print_plus_int}, {"R", print_rot13},
+		{NULL, NULL},
 	};
 	int index = 0, temp_idx, j = 0;
 
