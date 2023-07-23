@@ -26,7 +26,7 @@ int spec_func_count(const char *str, int idx)
 		{"#x", print_hash_hexL}, {"#X", print_hash_hexU},
 		{"+d", print_plus_int}, {"+i", print_plus_int},
 		{"+u", print_unsigned_int}, {" i", print_space_int},
-		{" d", print_space_int},
+		{" d", print_space_int}, {NULL, NULL},
 	};
 	int index = 0, temp_idx, count = 0;
 
