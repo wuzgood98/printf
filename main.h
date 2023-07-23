@@ -5,6 +5,7 @@
 #include <stdarg.h>
 #include <unistd.h>
 #include <stdio.h>
+#include <limits.h>
 
 /**
  * struct dictionary - struct for printer functions
