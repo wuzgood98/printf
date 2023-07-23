@@ -33,5 +33,6 @@ int print_string(va_list args, char *buffer, unsigned int buf_i);
 int print_pctg(va_list args __attribute__((unused)), char *b, unsigned int b_i);
 int print_int(va_list args, char *buffer, unsigned int buf_i);
 int print_binary(va_list args, char *buffer, unsigned int buf_i);
+char *init_bin(char *bin, long int arg, int is_neg, int size);
 
 #endif
