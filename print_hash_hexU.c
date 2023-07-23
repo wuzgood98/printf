@@ -43,5 +43,5 @@ int print_hash_hexU(va_list args, char *buffer, unsigned int buf_i)
 	}
 	free(bin);
 	free(hex);
-	return (cnt);
+	return (cnt + 2);
 }
