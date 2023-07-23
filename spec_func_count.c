@@ -29,7 +29,7 @@ int spec_func_count(const char *str, int idx)
 		{" d", print_space_int}, {" +i", print_plus_int},
 		{" +d", print_plus_int}, {"+ i", print_plus_int},
 		{"+ d", print_plus_int}, {"R", print_rot13},
-		{NULL, NULL},
+		{"r", print_reverse}, {NULL, NULL},
 	};
 	int index = 0, temp_idx, count = 0;
 
