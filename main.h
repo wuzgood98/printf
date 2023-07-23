@@ -41,5 +41,6 @@ int print_lower_hex(va_list args, char *buffer, unsigned int buf_i);
 char *init_hex(char *hex, char *bin, int size, int uppercase);
 int print_upper_hex(va_list args, char *buffer, unsigned int buf_i);
 int print_S(va_list args, char *buffer, unsigned int buf_i);
+int print_address(va_list args, char *buffer, unsigned int buf_i);
 
 #endif
