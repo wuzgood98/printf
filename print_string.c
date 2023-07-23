@@ -16,7 +16,7 @@ int print_string(va_list args, char *buffer, unsigned int buf_i)
 	str = va_arg(args, char *);
 	if (str == NULL)
 	{
-		while (str[index])
+		while (none[index])
 		{
 			buf_i = hand_buff(buffer, none[index], buf_i);
 			index++;
