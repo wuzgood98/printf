@@ -13,7 +13,7 @@ int print_rot13(va_list args, char *buffer, unsigned int buf_i)
 	char *str, none[] = "(nill)";
 	char alphabets[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char rot13_chars[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
-	unsigned int index, cnt, j;
+	unsigned int index, cnt = 0, j;
 
 	str = va_arg(args, char *);
 	if (str == NULL)
