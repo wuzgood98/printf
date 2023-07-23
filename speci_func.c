@@ -11,8 +11,9 @@ int (*spec_func(const char *str, int idx))(va_list, char *, unsigned int)
 {
 	dict_t lookup[] = {
 		{"c", print_char}, {"s", print_string},
-		{"%", print_pctg}, {"l", print_pctg}, {"h", print_pctg},
-		{" %", print_pctg},
+		{"%", print_pctg}, {"l", print_pctg},
+		{"h", print_pctg}, {" %", print_pctg},
+		{"i", print_int}, {"d", print_int},
 	};
 	int index = 0, temp_idx, j = 0;
 
