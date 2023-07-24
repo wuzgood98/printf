@@ -10,7 +10,7 @@
  */
 int print_string(va_list args, char *buffer, unsigned int buf_i)
 {
-	char *str, char none[] = "(null)";
+	char *str, none[] = "(null)";
 	unsigned int index = 0;
 
 	str = va_arg(args, char *);
