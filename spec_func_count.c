@@ -30,7 +30,8 @@ int spec_func_count(const char *str, int idx)
 		{" +d", print_plus_int}, {"+ i", print_plus_int},
 		{"+ d", print_plus_int}, {"R", print_rot13},
 		{"r", print_reverse}, {"ld", print_longint},
-		{"li", print_longint}, 
+		{"li", print_longint}, {"lu", printluint},
+		
 
 
 
