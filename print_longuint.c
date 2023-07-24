@@ -4,7 +4,7 @@
  * printluint - prints unsigned long integers from the arg.
  * @args: list of arguments.
  * @buffer: pointer to the buffer.
- * @buf_i: buffer index.
+ * @buf_i: buffer index - current position in the buffer.
  *
  * Return: the number of chars printed.
  */
