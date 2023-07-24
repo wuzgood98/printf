@@ -30,8 +30,11 @@ int (*spec_func(const char *str, int idx))(va_list, char *, unsigned int)
 		{" +d", print_plus_int}, {"+ i", print_plus_int},
 		{"+ d", print_plus_int}, {"R", print_rot13},
 		{"r", print_reverse}, {"0d", print_int},
-		{"0i", print_int}, {" 0d", print_space_int},
-		{" 0i", print_space_int}, {NULL, NULL},
+		{"0i", print_int}, {"0o", print_octal}, {" 0o", print_octal},
+		{"0x", print_lower_hex}, {" 0d", print_space_int},
+		{" 0i", print_space_int}, {" 0x", print_lower_hex},
+		{"0X", print_upper_hex}, {" 0X", print_upper_hex},
+		{"0u", print_unsigned_int}, {" 0u", print_unsigned_int}, {NULL, NULL},
 	};
 	int index = 0, temp_idx, j = 0;
 
