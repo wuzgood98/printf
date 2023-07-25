@@ -55,5 +55,10 @@ int printlngoct(va_list args, char *buffer, unsigned int buf_i);
 int printlnghex(va_list args, char *buffer, unsigned int buf_i);
 int displaylupx(va_list args, char *buffer, unsigned int buf_i);
 int displayhint(va_list args, char *buffer, unsigned int buf_i);
+int displayhuint(va_list args, char *buffer, unsigned int buf_i);
+
+
+
+
 
 #endif
