@@ -49,7 +49,7 @@ int print_plus_int(va_list args, char *buffer, unsigned int buf_i);
 int print_space_int(va_list args, char *buffer, unsigned int buf_i);
 int print_rot13(va_list args, char *buffer, unsigned int buf_i);
 int print_reverse(va_list args, char *buffer, unsigned int buf_i);
-int print_longint(va_list args, char *buffer, unsigned int buf_i);
+int displaylint(va_list args, char *buffer, unsigned int buf_i);
 int printluint(va_list args, char *buffer, unsigned int buf_i);
 int printlngoct(va_list args, char *buffer, unsigned int buf_i);
 int printlnghex(va_list args, char *buffer, unsigned int buf_i);
