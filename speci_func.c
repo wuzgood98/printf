@@ -33,7 +33,7 @@ int (*spec_func(const char *str, int idx))(va_list, char *, unsigned int)
 		{"li", print_longint}, {"lu", printluint},
 		{"lo", printlngoct}, {"lX", displaylupx},
 		{"hd", displayhint}, {"hi", displayhint},
-		{"hu", displayhuint},
+		{"hu", displayhuint}, {"ho", displayhoct},
 		
 
 		{NULL, NULL},
