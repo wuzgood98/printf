@@ -58,7 +58,7 @@ int displayhint(va_list args, char *buffer, unsigned int buf_i);
 int displayhuint(va_list args, char *buffer, unsigned int buf_i);
 int displayhoct(va_list args, char *buffer, unsigned int buf_i);
 int displayhhex(va_list args, char *buffer, unsigned int buf_i);
-
+int displayhupx(va_list args, char *buffer, unsigned int buf_i);
 
 
 #endif
