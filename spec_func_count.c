@@ -32,6 +32,7 @@ int spec_func_count(const char *str, int idx)
 		{"r", print_reverse}, {"ld", print_longint},
 		{"li", print_longint}, {"lu", printluint},
 		{"lo", printlngoct}, {"lX", displaylupx},
+		{"ld", displayhint},
 		
 
 
