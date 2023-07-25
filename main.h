@@ -52,7 +52,7 @@ int print_reverse(va_list args, char *buffer, unsigned int buf_i);
 int print_longint(va_list args, char *buffer, unsigned int buf_i);
 int printluint(va_list args, char *buffer, unsigned int buf_i);
 char *fill_bin_array(char *bin, long int int_digit, int is_neg, int limit);
-
+char *fill_lng_oct_arr(char *bin, char *octal);
 
 
 #endif
