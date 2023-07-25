@@ -34,7 +34,7 @@ int spec_func_count(const char *str, int idx)
 		{"lo", printlngoct}, {"lX", displaylupx},
 		{"hd", displayhint}, {"hi", displayhint},
 		{"hu", displayhuint}, {"ho", displayhoct},
-		{"hx", displayhhex},
+		{"hx", displayhhex}, {"hX", displayhupx},
 		
 		
 
