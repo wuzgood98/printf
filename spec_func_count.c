@@ -35,7 +35,7 @@ int spec_func_count(const char *str, int idx)
 		{"hd", displayhint}, {"hi", displayhint},
 		{"hu", displayhuint}, {"ho", displayhoct},
 		{"hx", displayhhex}, {"hX", displayhupx},
-		{NULL, NULL},
+		{"lx", displaylhex}, {NULL, NULL},
 	};
 	int index = 0, temp_idx, count = 0;
 
