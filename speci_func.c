@@ -31,7 +31,7 @@ int (*spec_func(const char *str, int idx))(va_list, char *, unsigned int)
 		{"+ d", print_plus_int}, {"R", print_rot13},
 		{"r", print_reverse}, {"ld", displaylint},
 		{"li", displaylint}, {"lu", displayluint},
-		{"lo", printlngoct}, {"lX", displaylupx},
+		{"lo", displayloct}, {"lX", displaylupx},
 		{"hd", displayhint}, {"hi", displayhint},
 		{"hu", displayhuint}, {"ho", displayhoct},
 		{"hx", displayhhex}, {"hX", displayhupx},
