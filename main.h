@@ -52,7 +52,7 @@ int print_reverse(va_list args, char *buffer, unsigned int buf_i);
 int displaylint(va_list args, char *buffer, unsigned int buf_i);
 int displayluint(va_list args, char *buffer, unsigned int buf_i);
 int displayloct(va_list args, char *buffer, unsigned int buf_i);
-int printlnghex(va_list args, char *buffer, unsigned int buf_i);
+int displaylhex(va_list args, char *buffer, unsigned int buf_i);
 int displaylupx(va_list args, char *buffer, unsigned int buf_i);
 int displayhint(va_list args, char *buffer, unsigned int buf_i);
 int displayhuint(va_list args, char *buffer, unsigned int buf_i);
