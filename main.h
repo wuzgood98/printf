@@ -30,7 +30,7 @@ int (*spec_func(const char *str, int idx))(va_list, char *, unsigned int);
 int spec_func_count(const char *str, int idx);
 unsigned int hand_buff(char *buffer, char c, unsigned int buf_i);
 int print_string(va_list args, char *buffer, unsigned int buf_i);
-int print_pctg(va_list args __attribute__((unused)), char *b, unsigned int b_i);
+int print_pt(va_list args __attribute__((unused)), char *b, unsigned int b_i);
 int print_int(va_list args, char *buffer, unsigned int buf_i);
 int print_binary(va_list args, char *buffer, unsigned int buf_i);
 char *init_bin(char *bin, long int arg, int is_neg, int size);
